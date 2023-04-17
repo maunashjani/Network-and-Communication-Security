@@ -19,7 +19,7 @@ pip install paramiko
 => File(s): p4.py, p4_1.py   
 => p4_1.py code generates server.crt and server.key for a localhost self signed SSL certificate   
 => SSL certficate files can also be generated using openssl    
-=> >openssl req -newkey rsa:2048 -nodes -keyout server.key -x509 -days 365 -out server.crt   
+=> openssl req -newkey rsa:2048 -nodes -keyout server.key -x509 -days 365 -out server.crt   
    
 3 - Write a program to send an encrypted email.   
 => File(s): p5.py   
@@ -32,7 +32,7 @@ pip install paramiko
 5 - Write a program to generate a DSA SSH key.   
 => File(s): p7.py   
 => The code uses paramiko package to generate DSA key   
-=> >Note: DSA keys are no longer recommended for use due to security concerns. It's recommended to use RSA or Ed25519 keys instead.   
+=> Note: DSA keys are no longer recommended for use due to security concerns. It's recommended to use RSA or Ed25519 keys instead.   
    
 6 - Write a program to implement multilevel security.   
 => File(s): p8.py, demo.txt   
