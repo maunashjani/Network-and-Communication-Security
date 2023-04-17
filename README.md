@@ -2,10 +2,13 @@
 Network and Communication Security - Python programs
 
 
-Python Pacakages:
+Python Packages:
 
-
-
+pip install pymysql
+pip install pycryptodome
+pip install cryptography
+pip install dkimpy
+pip install paramiko
 
 Program 1 - Write a program to store username and password in an encrypted form in a database to implement integrity lock.
 => File(s): p1.py
