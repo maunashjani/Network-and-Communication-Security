@@ -42,9 +42,11 @@ pip install paramiko
 7 - Write a program to demonstrate how to encrypt and decrypt the content of an XML node using 128-bit CBC AES encryption.   
 => File(s): p9.py   
 => For, the xml data:   
+   ```xml
    <user>  
       <username>JohnDoe</username>  
       <password>password123</password>  
-   </user> 
+   </user>
+   ```
    
 The password node is encrypted and decrypted.
