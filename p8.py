@@ -26,8 +26,8 @@ with open(filename, "r") as f:
 
 # Restrict access to the file based on the user's clearance level
 file_clearance = security_levels['secret']
-print(user_clearance)
-print(file_clearance)
+#print(user_clearance)
+#print(file_clearance)
 
 if security_levels[user_clearance] >= file_clearance:
     print("Access granted.")
